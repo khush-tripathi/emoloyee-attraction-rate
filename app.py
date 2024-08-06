@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the model
-clf = pickle.load(open("emp_model.pkl","rb"))
+clf = pickle.load(open("case_study_emp.pkl","rb"))
 
 def predict(data):
     clf = pickle.load(open("case_study_emp.pkl","rb"))
